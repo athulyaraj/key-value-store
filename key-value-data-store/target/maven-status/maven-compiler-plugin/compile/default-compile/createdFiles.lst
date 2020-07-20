@@ -1,5 +1,0 @@
-com/keyvaluestore/app/KeyValueStoreApplication.class
-com/keyvaluestore/app/service/Cluster.class
-com/keyvaluestore/app/service/Node.class
-com/keyvaluestore/app/controller/NodeController.class
-com/keyvaluestore/app/controller/KeyValueStoreController.class

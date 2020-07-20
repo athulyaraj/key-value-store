@@ -1,6 +1,0 @@
-com/keyvaluestore/models/Entry.class
-com/keyvaluestore/utils/CommonUtils.class
-com/keyvaluestore/models/Response$ResponseBuilder.class
-com/keyvaluestore/models/Entry$EntryBuilder.class
-com/keyvaluestore/models/Response.class
-com/keyvaluestore/models/BaseDto.class
