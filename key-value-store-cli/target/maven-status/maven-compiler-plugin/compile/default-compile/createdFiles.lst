@@ -1,0 +1,3 @@
+com/keyvaluestore/cli/constants/Constants.class
+com/keyvaluestore/cli/KeyValueStoreClient.class
+com/keyvaluestore/cli/utils/Client.class
