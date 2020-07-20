@@ -17,8 +17,8 @@ import java.util.List;
 public class KeyValueStoreClient {
 
     public static void main(String... args){
-        String serviceUrl = System.getenv(Constants.KEY_VALUE_STORE_SERVICE_URL);
-        String port = System.getenv(Constants.KEY_VALUE_STORE_SERVICE_PORT);
+        String serviceUrl = System.getProperty(Constants.KEY_VALUE_STORE_SERVICE_URL);
+        String port = System.getProperty(Constants.KEY_VALUE_STORE_SERVICE_PORT);
         getFileFromResources("/banner.txt");
         if(CommonUtils.isEmpty(serviceUrl) || CommonUtils.isEmpty(port)){
             log.info("No service url/port specified.Please re-run with -Dhost={hostname} -Dport={portNo}");
